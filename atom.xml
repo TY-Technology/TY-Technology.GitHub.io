@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>同源科技</title>
+  
+  <subtitle>电脑爱好者-同源</subtitle>
+  <link href="https://ty-technology.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ty-technology.github.io/"/>
+  <updated>2021-07-26T05:28:48.418Z</updated>
+  <id>https://ty-technology.github.io/</id>
+  
+  <author>
+    <name>电脑爱好者-同源</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CPU那些事 解密CPU</title>
+    <link href="https://ty-technology.github.io/2021/07/26/%E7%A1%AC%E4%BB%B6/cpu%E9%82%A3%E4%BA%9B%E4%BA%8B-%E8%A7%A3%E5%AF%86cpu"/>
+    <id>https://ty-technology.github.io/2021/07/26/%E7%A1%AC%E4%BB%B6/cpu%E9%82%A3%E4%BA%9B%E4%BA%8B-%E8%A7%A3%E5%AF%86cpu</id>
+    <published>2021-07-25T16:00:00.000Z</published>
+    <updated>2021-07-26T05:28:48.418Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CPU那些事-解密CPU"><a href="#CPU那些事-解密CPU" class="headerlink" title="CPU那些事 解密CPU"></a><strong>CPU那些事 解密CPU</strong></h1><h2 id="作者：电脑爱好者"><a href="#作者：电脑爱好者" class="headerlink" title="作者：电脑爱好者"></a>作者：电脑爱好者</h2><p>关于CPU，大家一定非常熟悉。但是如果细细说起来，那就可能会有不懂之处了。今天，我来为大家细细梳理一下那些关于CPU的知识。</p><h3 id="一、历史"><a href="#一、历史" class="headerlink" title="一、历史"></a>一、历史</h3><p>CPU的历史，可以从1971年说起。在那年，英特尔发布了第一款微处理器==Intel 4004==。</p><p><img src="https://img-blog.csdnimg.cn/054bba5510564ac1983a31ea1ca2eb4b.png" alt="Intel 4004"><br>Intel 4004 的外观确实与现代处理器有着很大的区别，但它确确实实是第一款微处理器。它的频率有 <strong>0.74MHz</strong> ，每秒可以运算 <strong>6万次</strong> 。</p><p>随后，==Intel 8008==进一步提升频率，也是世界上第一款 <strong>8 bit</strong> 字长的处理器。</p><p>1974年，又一个传奇诞生了：==Intel 8080==。它不仅频率达到了 <strong>2MHz</strong>，而且还被1975年的另一台具有历史性意义的 PC (严格意义上说不能算是PC) ==Altair 8800==所搭载。后来的==Intel 8086==更是后代 <strong>X86</strong>及 <strong>X64</strong> 的鼻祖。</p><p>1993年，我们熟悉的“奔腾”这一名称正式出现在了的大众面前：==英特尔奔腾I==。</p><p>1996~2000年，是 AMD 的鼎盛时代。AMD 的 <strong>K8</strong> 架构，在当时比英特尔的先进了不是一星半点儿。</p><p>2006年，英特尔发布了==酷睿 2 Duo==处理器，终结了 AMD 的霸主地位。它提供高性能的 <strong>2 核心</strong> ，最高配置==酷睿 2 Extreme==拥有 <strong>4核心</strong>  的强大配置。至此，在今后的 10 年里，一直都由英特尔的  <strong>酷睿系列</strong>霸占着民用市场。</p><p>2017年，AMD 发布了==锐龙系列==，全系采用 <strong>ZEN</strong> 架构，再一次对英特尔造成了威胁。AMD 后来的 <strong>ZEN+<strong>、</strong>ZEN2</strong>、<strong>ZEN3</strong> 架构的产品也帮助了 AMD 重回过去的光辉。</p><h3 id="二、核心-线程"><a href="#二、核心-线程" class="headerlink" title="二、核心/线程"></a>二、核心/线程</h3><p>最开始，CPU的核心数量都是单核。到了2006年，就逐渐开始向<strong>2 核心</strong>/<strong>4 核心</strong>过渡。现在，我们仍然可以见到<strong>4 核心 4 线程</strong>的处理器产品，也可以见到<strong>64 核心 128 线程</strong>的庞然巨兽。</p><p>超线程技术，最早由 IBM 研发，称之为==SMT==。后来，该项目被英特尔收购，变成了==HT==架构。现如今，英特尔与 AMD 的架构本质上都采用了==HT==架构。IBM 的架构最多可将1 核心分为<strong>8 线程</strong>，而==HT==技术只能将其1 核心分为<strong>2 线程</strong>。<br><img src="https://img-blog.csdnimg.cn/7bf50dfde3ce45bba70e3e2f188c921f.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY4MjM0NQ==,size_16,color_FFFFFF,t_70" alt="超线程技术概视图"></p><h3 id="三、频率"><a href="#三、频率" class="headerlink" title="三、频率"></a>三、频率</h3><p>现代处理器的频率大都在 <strong>2.5GHz</strong> 以上。有些人认为频率可以代表这颗处理器的实际性能，但实际上，AMD 的线程撕裂者的主频也不高，却是世界上最强的处理器。</p><h1 id="谢谢阅读！"><a href="#谢谢阅读！" class="headerlink" title="谢谢阅读！"></a>谢谢阅读！</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;CPU那些事-解密CPU&quot;&gt;&lt;a href=&quot;#CPU那些事-解密CPU&quot; class=&quot;headerlink&quot; title=&quot;CPU那些事 解密CPU&quot;&gt;&lt;/a&gt;&lt;strong&gt;CPU那些事 解密CPU&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;作者：电脑爱好者</summary>
+      
+    
+    
+    
+    <category term="硬件" scheme="https://ty-technology.github.io/categories/%E7%A1%AC%E4%BB%B6/"/>
+    
+    
+  </entry>
+  
+</feed>
